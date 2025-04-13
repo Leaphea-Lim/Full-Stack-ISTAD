@@ -79,6 +79,10 @@ td {
 
   /* height: 60px;     */
 }
+td:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
 .big-event,
 .event-name {
   color: blue;
@@ -92,6 +96,7 @@ td {
   color: #aaa;
   text-align: center;
 }
+
 .day-number {
   font-size: 14px;
   font-weight: bold;
